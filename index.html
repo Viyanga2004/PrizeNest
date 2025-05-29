@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🔥 Exclusive CPA Offers - Limited Time Only!</title>
+  <meta name="description" content="Claim your exclusive rewards today! Free gift cards, electronics, and cash prizes available for immediate claim.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #4a6bff;
+      --primary-dark: #3a56cc;
+      --secondary: #ff6b4a;
+      --accent: #20c997;
+      --danger: #ff4757;
+      --background: #f8faff;
+      --card: #fff;
+      --text: #2f3542;
+      --text-light: #747d8c;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+      --radius: 12px;
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    .badge {
+      position: absolute;
+      top: -10px;
+      right: 20px;
+      background-color: var(--danger);
+      color: white;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 15px;
+      background: linear-gradient(45deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      color: var(--text-light);
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .progress-container {
+      margin: 40px 0;
+      position: relative;
+    }
+
+    .progress-text {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: var(--text-light);
+    }
+
+    .progress-bar {
+      height: 10px;
+      width: 100%;
+      background-color: #e0e4e8;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 5px;
+      transition: width 1.5s ease-out;
+    }
+
+    .offer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .offer {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 25px;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .offer:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .offer-hot {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: var(--danger);
+      color: white;
+      padding: 5px 15px;
+      font-size: 12px;
+      font-weight: 600;
+      border-bottom-left-radius: 12px;
+    }
+
+    .offer-popular {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: var(--accent);
+      color: white;
+      padding: 5px 15px;
+      font-size: 12px;
+      font-weight: 600;
+      border-bottom-left-radius: 12px;
+    }
+
+    .offer-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .offer-icon {
+      font-size: 2rem;
+      margin-right: 15px;
+      color: var(--primary);
+    }
+
+    .offer-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .offer-description {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+
+    .offer-details {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+    }
+
+    .offer-detail {
+      display: flex;
+      align-items: center;
+    }
+
+    .offer-detail i {
+      margin-right: 5px;
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+
+    .cta-button {
+      display: block;
+      text-align: center;
+      background: linear-gradient(45deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 12px 0;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+      margin-top: 15px;
+    }
+
+    .cta-button:hover {
+      background: linear-gradient(45deg, var(--primary-dark), var(--primary));
+      transform: translateY(-2px);
+    }
+
+    .cta-button-secondary {
+      background: linear-gradient(45deg, var(--secondary), #ff5a36);
+    }
+
+    .cta-button-secondary:hover {
+      background: linear-gradient(45deg, #ff5a36, var(--secondary));
+    }
+
+    .testimonials {
+      margin: 40px 0;
+    }
+
+    .testimonial-title {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 25px;
+      color: var(--primary);
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .testimonial {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .testimonial-text {
+      font-style: italic;
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+    .testimonial-text::before {
+      content: '"';
+      font-size: 3rem;
+      color: var(--primary);
+      opacity: 0.2;
+      position: absolute;
+      top: -15px;
+      left: -10px;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+    }
+
+    .testimonial-author img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+
+    .author-info h4 {
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+
+    .author-info p {
+      font-size: 0.8rem;
+      color: var(--text-light);
+    }
+
+    .countdown {
+      text-align: center;
+      margin: 30px 0;
+      padding: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: var(--radius);
+      color: white;
+    }
+
+    .countdown-title {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .countdown-timer {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .countdown-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .countdown-number {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    .countdown-label {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+
+    .faq {
+      margin: 40px 0;
+    }
+
+    .faq-title {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 25px;
+      color: var(--primary);
+    }
+
+    .faq-item {
+      background: var(--card);
+      border-radius: var(--radius);
+      margin-bottom: 15px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .faq-answer {
+      padding: 0 20px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, padding 0.3s ease;
+      color: var(--text-light);
+    }
+
+    .faq-item.active .faq-answer {
+      padding: 0 20px 20px;
+      max-height: 500px;
+    }
+
+    .faq-toggle {
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active .faq-toggle {
+      transform: rotate(180deg);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 0;
+      color: var(--text-light);
+      font-size: 0.9rem;
+      border-top: 1px solid #e0e4e8;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+
+    .footer-link {
+      color: var(--text-light);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-link:hover {
+      color: var(--primary);
+    }
+
+    /* Chatbot Styles */
+    #chat-icon {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(74, 107, 255, 0.4);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+
+    #chat-icon:hover {
+      transform: scale(1.1);
+    }
+
+    #chat-icon .notification {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      background-color: var(--danger);
+      color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: pulse 1.5s infinite;
+    }
+
+    #chatbot {
+      position: fixed;
+      bottom: 95px;
+      right: 25px;
+      width: 320px;
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      display: none;
+      overflow: hidden;
+      z-index: 998;
+      transform-origin: bottom right;
+      transform: scale(0);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    #chatbot.active {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    #chatbot-header {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      padding: 15px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #chatbot-close {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    #chatbot-body {
+      padding: 15px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .chat-message {
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      border-radius: 18px;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      max-width: 80%;
+    }
+
+    .bot-message {
+      background-color: #f1f3f8;
+      border-top-left-radius: 5px;
+      margin-right: auto;
+    }
+
+    .user-message {
+      background-color: var(--primary);
+      color: white;
+      border-top-right-radius: 5px;
+      margin-left: auto;
+    }
+
+    .typing-indicator {
+      display: flex;
+      padding: 10px 15px;
+      background-color: #f1f3f8;
+      border-radius: 18px;
+      border-top-left-radius: 5px;
+      width: fit-content;
+      margin-bottom: 15px;
+    }
+
+    .typing-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--text-light);
+      border-radius: 50%;
+      margin: 0 2px;
+      animation: typingAnimation 1.4s infinite ease-in-out;
+    }
+
+    .typing-dot:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .typing-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes typingAnimation {
+      0%, 60%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-5px); }
+    }
+
+    #chatbot-input {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid #e0e4e8;
+    }
+
+    #chatbot-input input {
+      flex: 1;
+      padding: 10px 15px;
+      border: 1px solid #e0e4e8;
+      border-radius: 20px;
+      outline: none;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    #chatbot-input button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    #chatbot-input button:hover {
+      background: var(--primary-dark);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .offer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .countdown-timer {
+        flex-wrap: wrap;
+      }
+
+      #chatbot {
+        width: 280px;
+        right: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      .offer-title {
+        font-size: 1.1rem;
+      }
+
+      .cta-button {
+        padding: 10px 0;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">EXCLUSIVE</div>
+      <h1>Unlock Your Exclusive Rewards Today!</h1>
+      <p class="subtitle">Limited-time offers available for immediate claim - don't miss out!</p>
+    </header>
+
+    <div class="progress-container">
+      <div class="progress-text">
+        <span>Offers remaining: <strong>12/50</strong></span>
+        <span>92% claimed</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 92%"></div>
+      </div>
+    </div>
+
+    <div class="countdown">
+      <div class="countdown-title">⏰ Offer expires in:</div>
+      <div class="countdown-timer">
+        <div class="countdown-item">
+          <div class="countdown-number" id="countdown-hours">05</div>
+          <div class="countdown-label">Hours</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-number" id="countdown-minutes">23</div>
+          <div class="countdown-label">Minutes</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-number" id="countdown-seconds">47</div>
+          <div class="countdown-label">Seconds</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer-grid">
+      <div class="offer">
+        <div class="offer-popular">MOST POPULAR</div>
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-money-bill"></i></div>
+          <div>
+            <h3 class="offer-title">Finderish - Unclaimed Money</h3>
+            <div class="offer-description">Complete a quick search on Finderish and claim your unclaimed money instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-check-circle"></i> Instant delivery</div>
+          <div class="offer-detail"><i class="fas fa-users"></i> 342 claimed today</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=25804&s1=Unclaimed Money" class="cta-button"><i class="fas fa-bolt"></i> Claim Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-hot">HOT OFFER</div>
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fab fa-amazon"></i></div>
+          <div>
+            <h3 class="offer-title">My American Prizes - Amazon $1,000</h3>
+            <div class="offer-description">Complete a quick survey and get a chance to win a $1,000 Amazon gift card!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-trophy"></i> 3 winners daily</div>
+          <div class="offer-detail"><i class="fas fa-clock"></i> Ends soon</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=25741&s2= Amazon" class="cta-button cta-button-secondary"><i class="fas fa-ticket-alt"></i> Enter Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-money-bill-wave"></i></div>
+          <div>
+            <h3 class="offer-title">RewardZinga - CashApp $1,000</h3>
+            <div class="offer-description">Complete a quick survey and get a chance to receive $1,000 on CashApp!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-box-open"></i> Free shipping</div>
+          <div class="offer-detail"><i class="fas fa-star"></i> 4.8/5 rating</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=25740&s3=CashApp" class="cta-button"><i class="fas fa-magic"></i> Get Deal</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-film"></i></div>
+          <div>
+            <h3 class="offer-title">OkWow - Netflix $100</h3>
+            <div class="offer-description">Spend anywhere - no restrictions! Limited quantity.</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=24951&s1= Netflix " class="cta-button"><i class="fas fa-hand-holding-usd"></i> Grab Reward</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-shopping-cart"></i></div>
+          <div>
+            <h3 class="offer-title">OkWow - Shein $100</h3>
+            <div class="offer-description">Take a quick survey and get a $100 SHEIN gift card instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=24931&s2=Shein " class="cta-button"><i class="fas fa-hand-holding-usd"></i> Win Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-anchor"></i></div>
+          <div>
+            <h3 class="offer-title">OkWow - Royal Cruise $100</h3>
+            <div class="offer-description">Complete a quick survey and get $100 towards your next Royal Cruise adventure!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=24917&s3= Royal Cruise " class="cta-button"><i class="fas fa-hand-holding-usd"></i> Try Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-receipt"></i></div>
+          <div>
+            <h3 class="offer-title">OkWow - Aldi $100</h3>
+            <div class="offer-description">Complete a quick survey and get a $100 Aldi gift card instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=24916&s4=Aldi" class="cta-button"><i class="fas fa-hand-holding-usd"></i> Grab Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fab fa-amazon"></i></div>
+          <div>
+            <h3 class="offer-title">Prize Stash - Amazon $1,000</h3>
+            <div class="offer-description">Complete a quick survey and win a $1,000 Amazon gift card instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=20854&s2=Ama" class="cta-button"><i class="fas fa-hand-holding-usd"></i> Get Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-dollar-sign"></i></div>
+          <div>
+            <h3 class="offer-title">Prize Stash - CashApp $750</h3>
+            <div class="offer-description">Complete a quick survey and instantly get $750 sent to your CashApp!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=20853&s1=Cash" class="cta-button"><i class="fas fa-hand-holding-usd"></i>Enter Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fab fa-paypal"></i></div>
+          <div>
+            <h3 class="offer-title">Prize Stash - PayPal $1,000</h3>
+            <div class="offer-description">Complete a quick survey and receive $1,000 instantly via PayPal!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=20852&s3=PayPal " class="cta-button"><i class="fas fa-hand-holding-usd"></i>Enter Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-shopping-bag"></i></div>
+          <div>
+            <h3 class="offer-title">Prize Stash - Walmart $500</h3>
+            <div class="offer-description">Complete a quick survey and grab a $500 Walmart gift card instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=20849&s4=Walmart " class="cta-button"><i class="fas fa-hand-holding-usd"></i>Get Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-store"></i></div>
+          <div>
+            <h3 class="offer-title">Prize Stash - DoorDash $750</h3>
+            <div class="offer-description">Complete a quick survey and get $750 to spend on DoorDash instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=20848&s2= DoorDash " class="cta-button"><i class="fas fa-hand-holding-usd"></i>Get Now</a>
+      </div>
+
+      <div class="offer">
+        <div class="offer-header">
+          <div class="offer-icon"><i class="fas fa-shopping-cart"></i></div>
+          <div>
+            <h3 class="offer-title">Skims $750 Shopping</h3>
+            <div class="offer-description">Complete a quick survey and get $750 to shop your favorite Skims styles instantly!</div>
+          </div>
+        </div>
+        <div class="offer-details">
+          <div class="offer-detail"><i class="fas fa-bolt"></i> Fast approval</div>
+          <div class="offer-detail"><i class="fas fa-user-check"></i> Verified users</div>
+        </div>
+        <a href="https://go4affm.com/c/?p=46881&o=18604&s1=Skims " class="cta-button"><i class="fas fa-hand-holding-usd"></i>Win Now</a>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h3 class="testimonial-title">What People Are Saying</h3>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <div class="testimonial-text">
+            I couldn't believe it when I got my $100 Amazon card within minutes! So easy and completely legit.
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J.">
+            <div class="author-info">
+              <h4>Sarah J.</h4>
+              <p>Verified User</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-text">
+            After trying several sites, this was the only one that actually delivered what they promised. Got my PS5!
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+            <div class="author-info">
+              <h4>Michael T.</h4>
+              <p>Verified Winner</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-text">
+            The process was super simple and I received my Visa card in just 2 days. Will definitely use again!
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Jessica R.">
+            <div class="author-info">
+              <h4>Jessica R.</h4>
+              <p>Verified User</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">Frequently Asked Questions</h3>
+      <div class="faq-item">
+        <div class="faq-question">
+          How do I claim my reward?
+          <i class="fas fa-chevron-down faq-toggle"></i>
+        </div>
+        <div class="faq-answer">
+          Simply click on the offer you're interested in, complete the required steps (usually a quick survey or signup), and your reward will be processed immediately or within 24 hours.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Are these offers really free?
+          <i class="fas fa-chevron-down faq-toggle"></i>
+        </div>
+        <div class="faq-answer">
+          Yes! All offers are completely free to participate in. Some may require you to complete certain actions like surveys or signups, but there's never any cost to you.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          How long does it take to receive my reward?
+          <i class="fas fa-chevron-down faq-toggle"></i>
+        </div>
+        <div class="faq-answer">
+          Digital rewards like gift cards are typically delivered within minutes to your email. Physical items may take 2-4 weeks for processing and shipping.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Is my personal information safe?
+          <i class="fas fa-chevron-down faq-toggle"></i>
+        </div>
+        <div class="faq-answer">
+          Absolutely. We use industry-standard encryption and never sell your data to third parties. Any information required is only used to deliver your reward.
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#" class="footer-link">Terms of Service</a>
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Contact Us</a>
+      </div>
+      <p>© 2023 ExclusiveRewards. All rights reserved.</p>
+      <p>Offers are limited and may require completion of tasks. Not all users will qualify.</p>
+    </div>
+  </div>
+
+  <!-- Chatbot UI -->
+  <button id="chat-icon">
+    <i class="fas fa-comment-dots"></i>
+    <div class="notification">3</div>
+  </button>
+
+  <div id="chatbot">
+    <div id="chatbot-header">
+      <span>Reward Assistant</span>
+      <button id="chatbot-close"><i class="fas fa-times"></i></button>
+    </div>
+    <div id="chatbot-body">
+      <div class="chat-message bot-message">
+        Hi there! 👋 I'm here to help you choose the best reward. What are you interested in today?
+      </div>
+      <div class="typing-indicator">
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+      </div>
+    </div>
+    <div id="chatbot-input">
+      <input type="text" placeholder="Type your message..." id="chatbot-message">
+      <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script>
+    // Chatbot functionality
+    const chatBtn = document.getElementById("chat-icon");
+    const chatBox = document.getElementById("chatbot");
+    const chatClose = document.getElementById("chatbot-close");
+    const chatSend = document.getElementById("chatbot-send");
+    const chatMessage = document.getElementById("chatbot-message");
+    const chatBody = document.getElementById("chatbot-body");
+
+    chatBtn.onclick = () => {
+      chatBox.classList.toggle("active");
+      if (chatBox.classList.contains("active")) {
+        document.querySelector("#chat-icon .notification").style.display = "none";
+      }
+    };
+
+    chatClose.onclick = () => {
+      chatBox.classList.remove("active");
+    };
+
+    // Auto-open chatbot after 8s
+    setTimeout(() => {
+      chatBox.classList.add("active");
+    }, 8000);
+
+    // FAQ functionality
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+
+    // Countdown timer
+    function updateCountdown() {
+      const now = new Date();
+      const endOfDay = new Date();
+      endOfDay.setHours(23, 59, 59, 999);
+      
+      const diff = endOfDay - now;
+      
+      const hours = Math.floor(diff / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      
+      document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+      document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+      document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+    }
+    
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // Simple chatbot responses
+    const botResponses = [
+      "Great choice! The $100 Amazon gift card is our most popular offer. Just click the 'Claim Now' button to get started.",
+      "The PlayStation 5 giveaway has limited entries remaining! Would you like me to take you to the entry page?",
+      "The iPhone 14 Pro offer requires completing a quick survey. It typically takes about 3 minutes to qualify.",
+      "Visa gift cards can be used anywhere that accepts Visa debit cards. They make perfect gifts too!",
+      "All offers are 100% legitimate. We partner directly with brands to bring you these exclusive rewards.",
+      "Most digital rewards are delivered within 5-10 minutes after completing the requirements."
+    ];
+
+    chatSend.addEventListener('click', sendMessage);
+    chatMessage.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') sendMessage();
+    });
+
+    function sendMessage() {
+      const message = chatMessage.value.trim();
+      if (message === '') return;
+      
+      // Add user message
+      const userMessage = document.createElement('div');
+      userMessage.className = 'chat-message user-message';
+      userMessage.textContent = message;
+      chatBody.appendChild(userMessage);
+      
+      // Clear input
+      chatMessage.value = '';
+      
+      // Show typing indicator
+      const typingIndicator = document.createElement('div');
+      typingIndicator.className = 'typing-indicator';
+      typingIndicator.innerHTML = `
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+      `;
+      chatBody.appendChild(typingIndicator);
+      chatBody.scrollTop = chatBody.scrollHeight;
+      
+      // Simulate bot response after delay
+      setTimeout(() => {
+        // Remove typing indicator
+        chatBody.removeChild(typingIndicator);
+        
+        // Add bot response
+        const botMessage = document.createElement('div');
+        botMessage.className = 'chat-message bot-message';
+        
+        // Simple keyword matching for demo purposes
+        if (message.toLowerCase().includes('amazon')) {
+          botMessage.textContent = botResponses[0];
+        } else if (message.toLowerCase().includes('playstation') || message.toLowerCase().includes('ps5')) {
+          botMessage.textContent = botResponses[1];
+        } else if (message.toLowerCase().includes('iphone')) {
+          botMessage.textContent = botResponses[2];
+        } else if (message.toLowerCase().includes('visa')) {
+          botMessage.textContent = botResponses[3];
+        } else if (message.toLowerCase().includes('legit') || message.toLowerCase().includes('real')) {
+          botMessage.textContent = botResponses[4];
+        } else if (message.toLowerCase().includes('long') || message.toLowerCase().includes('time')) {
+          botMessage.textContent = botResponses[5];
+        } else {
+          botMessage.textContent = "I can help you choose between our Amazon gift card, PlayStation giveaway, iPhone offer, or Visa card. Which one interests you?";
+        }
+        
+        chatBody.appendChild(botMessage);
+        chatBody.scrollTop = chatBody.scrollHeight;
+      }, 1500);
+    }
+
+    // Animate progress bar on scroll
+    window.addEventListener('scroll', function() {
+      const progressBar = document.querySelector('.progress-fill');
+      const position = progressBar.getBoundingClientRect().top;
+      const screenPosition = window.innerHeight / 1.3;
+      
+      if(position < screenPosition) {
+        progressBar.style.width = '92%';
+      }
+    });
+  </script>
+</body>
+</html>
